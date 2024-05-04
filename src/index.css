@@ -11,3 +11,3530 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Airbnb Cereal App',sans-serif;
+  src: url("../public/assets/airbnb-cereal-font.zip");
+}
+
+.parent{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.main{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1195px;
+  margin: 0 auto;
+}
+
+.main img{
+  height: 19px;
+  padding-top: 18px;
+}
+
+.main p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.main1{
+  position: relative;
+  background: radial-gradient(46.35% 478.71% at 50% 62.85%, #E3E3E3 0%, #D7FDF4 73.4%);
+  display: flex;
+}
+
+.main1 img{
+  padding-top: 115px;
+}
+
+.discover{
+  text-align: center;
+  padding-top: 67px;
+  margin: 0;
+}
+
+.construction{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  color: #3E8180;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+}
+
+.custom{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #322C4E;
+}
+
+.discover button{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 205px;
+  height: 55px;
+  border-color: #E87F3F;
+  background: #E87F3F;
+}
+
+.eng{
+  max-width: 1241px;
+  margin: 0 auto;
+}
+
+.main2{
+  position: relative;
+  background: #E5E5E5;
+  padding-top: 20px;
+}
+
+.home{
+  float: right;
+  margin-right: 72px;
+  width: 305px;
+  height: 58px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.home img{
+  width: 34px;
+  height: 34px;
+  padding-left: 16px;
+}
+
+.home p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #322C4E;
+}
+
+.buying{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  padding-top: 66px;
+  text-align: center;
+  color: #0E1532;
+  margin: 0;
+}
+
+.buying span{
+  color: #3E8180;
+}
+
+.for{
+  display: flex;
+  max-width: 1196px;
+  margin: 0 auto;
+}
+
+.above{
+  display: flex;
+  gap: 24px;
+  padding-top: 72px;
+}
+
+.box1{
+  width: 365px;
+  height: 270px;
+  background: #FFFFFF;
+  border: 2px solid #5CCAAB;
+  box-shadow: 0px 4px 44px rgba(14, 21, 50, 0.1);
+  border-radius: 10px;
+}
+
+.uff{
+  max-width: 315px;
+  margin: 0 auto;
+  padding-top: 52px;
+}
+
+.distance span{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #3E8180;
+  padding-top: 100px;
+}
+
+.distance p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.distance{   
+  padding-top: 52px;
+}
+
+.box2{
+  width: 365px;
+  height: 270px;
+  background: #FFFFFF;
+  border: 2px solid #5CCAAB;
+  box-shadow: 0px 4px 44px rgba(14, 21, 50, 0.1);
+  border-radius: 10px; 
+}
+
+.house{
+  position: absolute;
+  left: 790px;
+  top: 140px;
+}
+
+.rely{
+  max-width: 840px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+.above1{
+  display: flex;
+  gap: 24px;
+  padding-top: 70px;
+}
+
+.find{
+  display: flex;
+  gap: 54px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.new{
+  padding-top: 176px;
+}
+
+.build{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.0041em;
+  color: #0E1532;
+}
+
+.build span{
+  color:#3E8180;
+}
+
+.largest{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0E1532;
+  letter-spacing: 0.0041em;
+}
+
+.new button{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 205px;
+  height: 55px;
+  background: #E87F3F;
+  border-radius: 5px;
+  border-color: #E87F3F;
+  margin-top: 30px;
+}
+
+.new img{
+  position: absolute;
+  left: 90px;
+  top: 1243px;
+}
+
+.circle{
+  width: 455px;
+  height: 455px;
+  left: 38px;
+  top: 125px;
+  background: #5CCAAB;
+  border-radius: 230px;
+  position: relative;
+  z-index: 0;
+}
+
+.sandy{
+  width: 329px;
+  height: 272px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 65px;
+  margin-bottom: -10px;
+  z-index: 1;
+}
+
+.west{
+  width: 329px;
+  height: 312pxpx;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 1px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 65px;
+  z-index: 2;
+}
+
+.ago{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #E87F3F;
+  border-radius: 5px;
+  border-color: #E87F3F;
+  width: 123px;
+  height: 29px;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  letter-spacing: -1px;
+  z-index: 4;
+}
+
+.leigh{
+  max-width: 289px;
+  margin: 0 auto;
+}
+
+.drive span{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #322C4E;
+}
+
+.bth{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9B9B9B;
+  word-spacing: 7px;
+}
+
+.dollar{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #322C4E;
+  margin: 0;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.completeion{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9B9B9B;
+}
+
+.date{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #322C4E;
+}
+
+.flex1 p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9B9B9B;
+  margin: 0;
+}
+
+.flex1 img{
+  height: 28px;
+}
+
+.rec{
+  display: flex;
+  gap: 35px;
+  max-width: 937px;
+  margin: 0 auto;
+  padding-top: 350px;
+}
+
+.stars{
+  max-width: 426px;
+  margin: 0 auto;
+}
+
+.stars img{
+  margin-top: 19px;
+}
+
+.stars span{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3E8180;
+}
+
+.owner{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #322C4E;
+}
+
+.box3{
+  width: 468px;
+  height: 205px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+  border-radius: 10px;  
+}
+
+.bought{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #322C4E;
+  line-height: 19px;
+}
+
+.box4{
+  width: 468px;
+  height: 205px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+  border-radius: 10px;
+}
+
+.what{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  padding-top: 62px;
+}
+
+.what span{
+  color: #3E8180;
+}
+
+.laptop{
+  max-width: 1243px;
+  margin: 0 auto;
+}
+
+.laptop button{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 205px;
+  height: 55px;
+  background: #E87F3F;
+  border-radius: 5px;
+  border-color: #E87F3F;
+  margin: 64px;
+}
+
+.battery{
+  display: flex;
+  justify-content: center;
+}
+
+.luxury{
+  display: flex;
+  gap: 77px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+  max-width: 1245px;
+  margin: 0 auto;
+}
+
+.box5{
+  display: flex;
+  gap: 12px;
+  width: 279px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+  border-radius: 10px;
+}
+
+.box5 img{
+  height: 25px;
+}
+
+.box5 p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #322C4E;
+  margin: 0;
+}
+
+.single{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.box6{
+  display: flex;
+  gap: 12px;
+  width: 279px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+  border-radius: 10px;
+}
+
+.box6 img{
+  height: 25px;
+}
+
+.box6 p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #322C4E;
+  margin: 0;
+}
+
+.main3{
+  background: #FFFFFF;
+}
+
+.charger{
+  display: flex;
+  gap: 122px;
+}
+
+.hockey{
+  max-width: 1122px;
+  margin: 0 auto;
+  margin-left: 180px;
+}
+
+.have{
+  padding-top: 60px;
+  margin-left: 180px;
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  color: #322C4E;
+}
+
+.have span{
+  color: #3E8180;
+}
+
+.hockey p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #322C4E;
+  margin: 0;
+}
+
+.handfree1{
+  display: flex;
+  gap: 40px; 
+  margin-bottom: 19px;
+}
+
+.handfree1 img{
+  height: 7.12px;
+}
+
+.line{
+  width: 590px;
+  height: 0;
+  border: 1px solid rgba(214, 214, 214, 0.8);
+}
+
+.handfree2{
+  display: flex;
+  gap: 143px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.handfree2 img{
+  height: 7.12px;
+}
+
+.handfree3{
+  display: flex;
+  gap: 55px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.handfree3 img{
+  height: 7.12px;
+}
+
+.handfree4{
+  display: flex;
+  gap: 136px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.handfree4 img{
+  height: 7.12px;
+}
+
+.handfree5{
+  display: flex;
+  gap: 70px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.handfree5 img{
+  height: 7.12px;
+}
+
+.faq{
+  height: 420px;
+  position: relative;
+  left: -70px;
+  top: 16px;
+}
+
+.main4{
+  margin-top: 40px;
+  background: #322C4E;
+  text-align: center;
+}
+
+.query{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding-top: 50px;
+}
+
+.query img{
+  height: 16.63px;
+}
+
+.query p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.whites{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.safety{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1193px;
+  margin: 0 auto;
+}
+
+.super{
+  display: flex;
+  gap: 25px;
+}
+
+.super p{
+  font-family: 'Airbnb Cereal App',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.policy{
+  display: flex;
+  gap: 25px;
+}
+
+.partly{
+  width: 55px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-device-width:1230px) {
+  .main{
+      max-width: 1050px;
+      margin: 0 auto;
+  }
+  .construction{
+      font-size: 39px;
+  }
+  .home{
+      margin-right: 48px;
+      width: 275px;
+      height: 48px;
+  }
+  .for{
+      max-width: 1096px;
+      margin: 0 auto;
+  }
+  .box1{
+      width: 325px;
+      height: 240px;
+  }
+  .uff{
+      max-width: 285px;
+      margin: 0 auto;
+      padding-top: 52px;
+  }
+  .distance span{
+      font-size: 21px;
+      padding-top: 70px;
+  }
+  .distance p{
+      font-size: 15px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 325px;
+      height: 240px;
+  }
+  .find{
+      gap: 54px;
+      max-width: 860px;
+      margin: 0 auto;
+  }
+  .new img {
+      left: 50px;
+      top: 1193px;
+  }
+  .circle{
+      width: 355px;
+      height: 355px;
+      left: 38px;
+      top: 125px;
+  }
+  .sandy{
+      width: 249px;
+      height: 192px;
+      padding-left: 55px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 249px;
+      height: 172px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 55px;
+  }
+  .ago{
+      font-size: 14px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 229px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 15px;
+  }
+  .bth{
+      font-size: 13px;
+      padding: 4px;
+      margin: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 17px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 13px;
+  }
+  .date{
+      font-size: 13px;
+  }
+  .flex1 p{
+      font-size: 13px;
+  }
+  .flex1 img{
+      height: 25px;
+  }
+  .house{
+      left: 670px;
+      top: 140px;
+  }
+  .have{
+      margin-left: 100px;
+  }
+  .charger{
+      gap: 92px;
+  }
+  .hockey{
+      max-width: 922px;
+      margin: 0 auto;
+      margin-left: 100px;
+  }
+  .grid{
+      gap: 15px;
+  }
+  .box5{
+      width: 239px;
+      height: 80px;
+  }
+  .whites{
+      font-size: 19px;
+  }
+  .safety{
+      max-width: 1090px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 15px;
+  }
+}
+
+@media screen and (max-device-width:1135px) {
+  .main{
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  .construction{
+      font-size: 36px;
+  }
+  .home{
+      margin-right: 58px;
+      width: 255px;
+      height: 48px;
+  }
+  .home p{
+      font-size: 14px;
+  }
+  .for{
+      max-width: 916px;
+      margin: 0 auto;
+  }
+  .above{
+      gap: 20px;
+  }
+  .house{
+      left: 640px;
+      top: 140px;
+      width: 360px;
+  }
+  .box1{
+      width: 300px;
+      height: 240px;
+  }
+  .uff{
+      max-width: 285px;
+      margin: 0 auto;
+      padding-top: 52px;
+  }
+  .rely{
+      max-width: 720px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 20px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 21px;
+      padding-top: 70px;
+  }
+  .distance p{
+      font-size: 15px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 300px;
+      height: 240px;
+  }
+  .find{
+      gap: 54px;
+      max-width: 860px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 146px;
+  }
+  .build{
+      font-size: 24px;
+  }
+  .largest{
+      font-size: 15px;
+  }
+  .new img {
+      left: 50px;
+      top: 117    3px;
+  }
+  .circle{
+      width: 355px;
+      height: 355px;
+      left: 38px;
+      top: 125px;
+  }
+  .sandy{
+      width: 249px;
+      height: 192px;
+      padding-left: 55px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 249px;
+      height: 172px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 55px;
+  }
+  .ago{
+      font-size: 14px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 229px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 15px;
+  }
+  .bth{
+      font-size: 13px;
+      padding: 4px;
+      margin: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 17px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 13px;
+  }
+  .date{
+      font-size: 13px;
+  }
+  .flex1 p{
+      font-size: 13px;
+  }
+  .flex1 img{
+      height: 25px;
+  }
+  .rec{
+      gap: 35px;
+      max-width: 937px;
+      margin: 0 auto;
+      padding-top: 350px;
+  }
+  
+  .stars{
+      max-width: 426px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 468px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 468px;
+      height: 205px;
+  }
+  .grid{
+      gap: 15px;
+  }
+  .box5{
+      width: 239px;
+      height: 80px;
+  }
+  .have{
+      margin-left: 100px;
+  }
+  .charger{
+      gap: 62px;
+  }
+  .hockey{
+      max-width: 722px;
+      margin: 0 auto;
+      margin-left: 100px;
+  }
+  .have{
+      font-size: 24px;
+  }
+  .hockey p{
+      font-size: 14px;
+  }
+  .line{
+      width: 590px;
+  } 
+  .faq{
+      width: 380px;
+  }
+  .handfree1{
+      gap: 52px; 
+  }
+  .handfree1 img{
+      height: 7.12px;
+  }
+  .handfree2{
+      gap: 143px;
+  }
+  .handfree2 img{
+      height: 7.12px;
+  }
+  .handfree3{
+      gap: 67px;
+  }
+  .handfree3 img{
+      height: 7.12px;
+  }
+  .handfree4{
+      gap: 139px;
+  }
+  .handfree4 img{
+      height: 7.12px;
+  }
+  .handfree5{
+      gap: 82px;
+  }
+  .handfree5 img{
+      height: 7.12px;
+  }
+  .line{
+      width: 540px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 18px;
+  }
+  .safety{
+      max-width: 970px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-device-width:1030px) {
+  .main{
+      max-width: 900px;
+      margin: 0 auto;
+  }
+  .main1 img{
+      width: 300px;
+  }
+  .construction{
+      font-size: 33px;
+  }
+  .custom{
+      font-size: 18px;
+  }
+  .home{
+      margin-right: 58px;
+      width: 245px;
+      height: 48px;
+  }
+  .home p{
+      font-size: 14px;
+  }
+  .for{
+      max-width: 876px;
+      margin: 0 auto;
+  }
+  .above{
+      gap: 15px;
+  }
+  .house{
+      left: 590px;
+      top: 140px;
+      width: 360px;
+  }
+  .box1{
+      width: 280px;
+      height: 220px;
+  }
+  .uff{
+      max-width: 260px;
+      margin: 0 auto;
+      padding-top: 38px;
+  }
+  .rely{
+      max-width: 660px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 15px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 19px;
+      padding-top: 70px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 14px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 280px;
+      height: 220px;
+  }
+
+  .find{
+      gap: 54px;
+      max-width: 860px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 146px;
+  }
+  .build{
+      font-size: 24px;
+  }
+  .largest{
+      font-size: 15px;
+  }
+  .new img {
+      left: 50px;
+      top: 1073px;
+  }
+  .circle{
+      width: 355px;
+      height: 355px;
+      left: 38px;
+      top: 125px;
+  }
+  .sandy{
+      width: 249px;
+      height: 192px;
+      padding-left: 55px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 249px;
+      height: 172px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 55px;
+  }
+  .ago{
+      font-size: 14px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 229px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 15px;
+  }
+  .bth{
+      font-size: 13px;
+      padding: 4px;
+      margin: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 17px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 13px;
+  }
+  .date{
+      font-size: 13px;
+  }
+  .flex1 p{
+      font-size: 13px;
+  }
+  .flex1 img{
+      height: 25px;
+  }
+  .rec{
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 350px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 27px;
+  }
+  .box5{
+      width: 239px;
+      height: 80px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      gap: 62px;
+  }
+  .hockey{
+      max-width: 700px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      font-size: 24px;
+  }
+  .hockey p{
+      font-size: 14px;
+  }
+  .line{
+      width: 590px;
+  } 
+  .faq{
+      width: 350px;
+  }
+  .handfree1{
+      gap: 40px; 
+  }
+  .handfree1 img{
+      height: 7.12px;
+  }
+  .handfree2{
+      gap: 130px;
+  }
+  .handfree2 img{
+      height: 7.12px;
+  }
+  .handfree3{
+      gap: 67px;
+  }
+  .handfree3 img{
+      height: 7.12px;
+  }
+  .handfree4{
+      gap: 139px;
+  }
+  .handfree4 img{
+      height: 7.12px;
+  }
+  .handfree5{
+      gap: 82px;
+  }
+  .handfree5 img{
+      height: 7.12px;
+  }
+  .line{
+      width: 520px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 16px;
+  }
+  .safety{
+      max-width: 890px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-device-width:945px) {
+  .main{
+      max-width: 830px;
+      margin: 0 auto;
+  }
+  .main1 img{
+      width: 280px;
+  }
+  .construction{
+      font-size: 30px;
+  }
+  .custom{
+      font-size: 17px;
+  }
+  .home{
+      margin-right: 58px;
+      width: 245px;
+      height: 48px;
+  }
+  .home p{
+      font-size: 14px;
+  }
+  .buying{
+      font-size: 22px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 754px;
+      margin: 0 auto;
+  }
+  .above{
+      order: 2;
+      gap: 24px;
+  }
+  .house{
+      order: 1;
+      position: static;
+      padding-left: 60px;
+      width: 660px;
+      margin-bottom: -120px;
+      margin-top: -80px;
+  }
+  .box1{
+      width: 365px;
+      height: 270px;
+  }
+  .uff{
+      max-width: 315px;
+      margin: 0 auto;
+      padding-top: 52px;
+  }
+  .rely{
+      max-width: 754px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 24px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 22px;
+      padding-top: 100px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 16px;
+  }
+  .distance{   
+      padding-top: 43px;
+  }
+  .box2{
+      width: 365px;
+      height: 270px;
+  }
+
+  .find{
+      gap: 24px;
+      max-width: 760px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 146px;
+  }
+  .build{
+      font-size: 24px;
+  }
+  .largest{
+      line-height: 120%;
+      font-size: 15px;
+  }
+  .jawad{
+      display: none;
+  }
+  .mahaz{
+      display: none;
+  }
+  .durani{
+      display: none;
+  }
+  .new img {
+      left: 0px;
+      top: 1580px;
+  }
+  .new button{
+      margin-top: 15px;
+  }
+  .circle{
+      width: 355px;
+      height: 355px;
+      left: 38px;
+      top: 125px;
+  }
+  .sandy{
+      width: 249px;
+      height: 192px;
+      padding-left: 55px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 249px;
+      height: 172px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 55px;
+  }
+  .ago{
+      font-size: 14px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 229px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 15px;
+  }
+  .bth{
+      font-size: 13px;
+      padding: 4px;
+      margin: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 17px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 13px;
+  }
+  .date{
+      font-size: 13px;
+  }
+  .flex1 p{
+      font-size: 13px;
+  }
+  .flex1 img{
+      height: 25px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 280px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 27px;
+  }
+  .box5{
+      width: 239px;
+      height: 80px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 780px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      margin-left: 140px;
+      font-size: 24px;
+  }
+  .hockey p{
+      max-width: 1122;
+      margin: 0 auto;
+      margin-left: 80px;
+      font-size: 16px;
+  }
+  .line{
+      margin-left: 80px;
+      width: 539px;
+  } 
+  .faq{
+      left: 140px;
+      top: -80px;
+      margin-bottom: -250px;
+      height: 650px;
+      width: 650px;
+  }
+  .handfree1{
+      gap: 40px; 
+  }
+  .handfree1 img{
+      height: 7.12px;
+  }
+  .handfree2{
+      gap: 130px;
+  }
+  .handfree2 img{
+      height: 7.12px;
+  }
+  .handfree3{
+      gap: 67px;
+  }
+  .handfree3 img{
+      height: 7.12px;
+  }
+  .handfree4{
+      gap: 139px;
+  }
+  .handfree4 img{
+      height: 7.12px;
+  }
+  .handfree5{
+      gap: 82px;
+  }
+  .handfree5 img{
+      height: 7.12px;
+  }
+  .line{
+      width: 601px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 16px;
+  }
+  .safety{
+      max-width: 790px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 11px;
+  }
+  .partly{
+      width: 30px;
+      padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-device-width:870px) {
+  .main{
+      max-width: 750px;
+      margin: 0 auto;
+  }
+  .main1 img{
+      width: 280px;
+  }
+  .construction{
+      letter-spacing: -1px;
+      font-size: 30px;
+  }
+  .custom{
+      font-size: 17px;
+  }
+  .home{
+      margin-right: 58px;
+      width: 245px;
+      height: 48px;
+  }
+  .home p{
+      font-size: 14px;
+  }
+  .buying{
+      font-size: 22px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 754px;
+      margin: 0 auto;
+  }
+  .above{
+      gap: 24px;
+  }
+  .house{
+      position: static;
+      padding-left: 60px;
+      width: 660px;
+      margin-bottom: -120px;
+      margin-top: -80px;
+  }
+  .box1{
+      width: 365px;
+      height: 270px;
+  }
+  .uff{
+      max-width: 315px;
+      margin: 0 auto;
+      padding-top: 52px;
+  }
+  .rely{
+      max-width: 754px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 24px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 22px;
+      padding-top: 100px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 16px;
+  }
+  .distance{   
+      padding-top: 43px;
+  }
+  .box2{
+      width: 365px;
+      height: 270px;
+  }
+
+  .find{
+      gap: 24px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 136px;
+  }
+  .build{
+      margin: 0;
+      font-size: 22px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 13px;
+  }
+  .new img {
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 15px;
+  }
+  .circle{
+      width: 255px;
+      height: 255px;
+      left: 38px;
+      top: 110px;
+  }
+  .sandy{
+      width: 200px;
+      height: 142px;
+      padding-left: 28px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 200px;
+      height: 122px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 10px;
+      margin-left: 28px;
+  }
+  .ago{
+      font-size: 11px;
+      width: 93px;
+      height: 24px;
+      left: 40px;
+      top: 10px;
+  }
+  .leigh{
+      max-width: 180px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 13px;
+  }
+  .bth{
+      font-size: 11px;
+      padding: 4px;
+      margin: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 15px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 11px;
+  }
+  .date{
+      font-size: 11px;
+  }
+  .flex1 p{
+      font-size: 11px;
+  }
+  .flex1 img{
+      height: 15px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 280px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 15px;
+  }
+  .box5{
+      width: 239px;
+      height: 80px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 780px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      margin-left: 140px;
+      font-size: 24px;
+  }
+  .hockey p{
+      max-width: 1122;
+      margin: 0 auto;
+      margin-left: 80px;
+      font-size: 16px;
+  }
+  .line{
+      margin-left: 80px;
+      width: 539px;
+  } 
+  .faq{
+      left: 100px;
+      top: -80px;
+      margin-bottom: -250px;
+      height: 650px;
+      width: 650px;
+  }
+  .line{
+      width: 601px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 16px;
+  }
+  .safety{
+      max-width: 750px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 11px;
+  }
+  .partly{
+      width: 30px;
+      padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-device-width:770px) {
+  .main{
+      height: 40px;
+      max-width: 650px;
+      margin: 0 auto;
+  }
+  .main img{
+      padding-top: 12px;
+      height: 15px;
+  }
+  .main p{
+      font-size: 12px;
+  }
+  .main1 img{
+      width: 220px;
+  }
+  .construction{
+      margin: 0;
+      letter-spacing: -1px;
+      font-size: 28px;
+  }
+  .custom{
+      font-size: 15px;
+  }
+  .discover button{
+      font-size: 14px;
+      width: 170px;
+      height: 40px;
+  }
+  .home{
+      margin-right: 38px;
+      width: 215px;
+      height: 48px;
+  }
+  .home img{
+      padding-left: 10px;
+      width: 24px;
+      height: 24px;
+  }
+  .home p{
+      font-size: 13px;
+  }
+  .buying{
+      font-size: 20px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 594px;
+      margin: 0 auto;
+  }
+  .above{
+      gap: 14px;
+  }
+  .house{
+      position: static;
+      padding-left: 10px;
+      width: 600px;
+      margin-bottom: -120px;
+      margin-top: -80px;
+  }
+  .box1{
+      width: 280px;
+      height: 220px;
+  }
+  .uff{
+      max-width: 260px;
+      margin: 0 auto;
+      padding-top: 38px;
+  }
+  .rely{
+      max-width: 594px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 14px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 19px;
+      padding-top: 70px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 14px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 280px;
+      height: 220px;
+  }
+
+  .find{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 66px;
+      text-align: center;
+
+  }
+  .build{
+      margin: 0;
+      font-size: 26px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 16px;
+  }
+  .jawad{
+      display: block;
+  }
+  .mahaz{
+      display: block;
+  }
+  .durani{
+      display: block;
+  }
+  .new img {
+      display: none;
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 15px;
+  }
+  .circle{
+      margin-left: -50px;
+      width: 455px;
+      height: 455px;
+  }
+  .sandy{
+      width: 329px;
+      height: 272px;
+      padding-left: 65px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 329px;
+      height: 190px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 65px;
+  }
+  .ago{
+      font-size: 12px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 289px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 16px;
+  }
+  .bth{
+      margin: 10px;
+      margin-left: 0;
+      font-size: 14px;
+      padding: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 18px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 14px;
+  }
+  .date{
+      font-size: 14px;
+  }
+  .flex1 p{
+      font-size: 14px;
+  }
+  .flex1 img{
+      height: 28px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 230px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+  }
+  .box5{
+      width: 214px;
+      height: 80px;
+  }
+  .laptop button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 780px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      margin-left: 80px;
+      font-size: 22px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      margin-left: 20px;
+      font-size: 14px;
+  }
+  .line{
+      margin-left: 20px;
+      width: 552px;
+  } 
+  .faq{
+      left: 80px;
+      top: -80px;
+      margin-bottom: -250px;
+      height: 600px;
+      width: 560px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 15px;
+  }
+  .safety{
+      max-width: 650px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 10px;
+  }
+  .partly{
+      width: 30px;
+      padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-device-width:675px) {
+  .main{
+      height: 30px;
+      max-width: 550px;
+      margin: 0 auto;
+  }
+  .main img{
+      padding-top: 10px;
+      height: 12px;
+  }
+  .main p{
+      font-size: 10px;
+  }
+  .main1 img{
+      width: 180px;
+  }
+  .construction{
+      margin: 0;
+      letter-spacing: -1px;
+      font-size: 24px;
+  }
+  .custom{
+      font-size: 13px;
+  }
+  .discover button{
+      font-size: 12px;
+      width: 130px;
+      height: 30px;
+  }
+  .home{
+      margin-right: 38px;
+      width: 175px;
+      height: 38px;
+  }
+  .home img{
+      padding-left: 6px;
+      width: 20px;
+      height: 20px;
+  }
+  .home p{
+      font-size: 10.5px;
+  }
+  .buying{
+      font-size: 20px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 594px;
+      margin: 0 auto;
+  }
+  .above{
+      padding-top: 40px;
+      gap: 14px;
+  }
+  .house{
+      position: static;
+      padding-left: 10px;
+      width: 520px;
+      height: 500px;
+      margin-bottom: -120px;
+      margin-top: -80px;
+  }
+  .box1{
+      width: 280px;
+      height: 220px;
+  }
+  .uff{
+      max-width: 260px;
+      margin: 0 auto;
+      padding-top: 38px;
+  }
+  .rely{
+      max-width: 594px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 14px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 19px;
+      padding-top: 70px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 14px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 280px;
+      height: 220px;
+  }
+
+  .find{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 66px;
+      text-align: center;
+
+  }
+  .build{
+      margin: 0;
+      font-size: 26px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 14px;
+  }
+  .jawad{
+      display: block;
+  }
+  .mahaz{
+      display: block;
+  }
+  .durani{
+      display: block;
+  }
+  .new img {
+      display: none;
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 15px;
+  }
+  .circle{
+      margin-left: -50px;
+      width: 455px;
+      height: 455px;
+  }
+  .sandy{
+      width: 329px;
+      height: 272px;
+      padding-left: 65px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 329px;
+      height: 190px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 65px;
+  }
+  .ago{
+      font-size: 12px;
+      width: 123px;
+      height: 29px;
+      left: 80px;
+      top: 20px;
+  }
+  .leigh{
+      max-width: 289px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 16px;
+  }
+  .bth{
+      margin: 10px;
+      margin-left: 0;
+      font-size: 14px;
+      padding: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 18px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 14px;
+  }
+  .date{
+      font-size: 14px;
+  }
+  .flex1 p{
+      font-size: 14px;
+  }
+  .flex1 img{
+      height: 28px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 230px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+  }
+  .box5{
+      flex-direction: column;
+      gap: 5px;
+      width: 184px;
+      height: 80px;
+  }
+  .laptop button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 490px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      margin-left: 80px;
+      font-size: 22px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      margin-left: 20px;
+      font-size: 14px;
+  }
+  .line{
+      margin-left: 20px;
+      width: 470px;
+  } 
+  .faq{
+      left: 80px;
+      top: -80px;
+      margin-bottom: -220px;
+      height: 500px;
+      width: 460px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 15px;
+  }
+  .safety{
+      max-width: 550px;
+      margin: 0 auto;
+  }
+  .super p{
+      font-size: 10px;
+  }
+  .partly{
+      width: 30px;
+      padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-device-width:590px) {
+  .main{
+      height: 30px;
+      max-width: 480px;
+      margin: 0 auto;
+  }
+  .main img{
+      padding-top: 10px;
+      height: 12px;
+  }
+  .main p{
+      font-size: 10px;
+  }
+  .main1 img{
+      padding-top: 95px;
+      width: 150px;
+  }
+  .discover{
+      padding-top: 52px;
+  }
+  .construction{
+      margin: 0;
+      letter-spacing: -1px;
+      font-size: 22px;
+  }
+  .custom{
+      font-size: 11px;
+  }
+  .discover button{
+      font-size: 12px;
+      width: 130px;
+      height: 30px;
+  }
+  .home{
+      margin-right: 38px;
+      width: 175px;
+      height: 38px;
+  }
+  .home img{
+      padding-left: 6px;
+      width: 20px;
+      height: 20px;
+  }
+  .home p{
+      font-size: 10.5px;
+  }
+  .buying{
+      font-size: 20px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 454px;
+      margin: 0 auto;
+  }
+  .above{
+      padding-top: 20px;
+      gap: 14px;
+  }
+  .house{
+      position: static;
+      padding-left: 30px;
+      width: 380px;
+      height: 400px;
+      margin-bottom: -90px;
+      margin-top: -50px;
+  }
+  .box1{
+      width: 220px;
+      height: 180px;
+  }
+  .uff{
+      max-width: 205px;
+      margin: 0 auto;
+      padding-top: 30px;
+  }
+  .uff img{
+      height: 25px;
+  }
+  .rely{
+      max-width: 454px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 14px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 15px;
+      padding-top: 50px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 11px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 220px;
+      height: 180px;
+  }
+
+  .find{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 66px;
+      text-align: center;
+
+  }
+  .build{
+      margin: 0;
+      font-size: 26px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 14px;
+  }
+  .jawad{
+      display: block;
+  }
+  .mahaz{
+      display: block;
+  }
+  .durani{
+      display: block;
+  }
+  .new img {
+      display: none;
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 160px;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 15px;
+      margin-bottom: -200px;
+  }
+  .circle{
+      margin-left: -50px;
+      width: 355px;
+      height: 355px;
+  }
+  .sandy{
+      width: 249px;
+      height: 192px;
+      padding-left: 55px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 249px;
+      height: 172px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 55px;
+  }
+  .ago{
+      font-size: 10px;
+      width: 93px;
+      height: 23px;
+      left: 65px;
+      top: 15px;
+  }
+  .leigh{
+      max-width: 229px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 15px;
+  }
+  .bth{
+      margin: 10px;
+      margin-left: 0;
+      font-size: 13px;
+      padding: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 16px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 13px;
+  }
+  .date{
+      font-size: 13px;
+  }
+  .flex1 p{
+      font-size: 13px;
+  }
+  .flex1 img{
+      height: 25px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 230px;
+  }
+  
+  .stars{
+      max-width: 406px;
+      margin: 0 auto;
+  }
+  
+  .stars img{
+      margin-top: 19px;
+  }
+  
+  .stars span{
+      font-size: 16px;
+  }
+  
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
+  .box3{
+      width: 450px;
+      height: 205px;
+  }
+  
+  .bought{
+      font-size: 14px;
+  }
+  .box4{
+      width: 450px;
+      height: 205px;
+  }
+  .what{
+      font-size: 20px;
+      padding-top: 42px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 6px;
+  }
+  .box5{
+      flex-direction: column;
+      gap: 5px;
+      width: 144px;
+      height: 60px;
+  }
+  .box5 img{
+      height: 15px;
+  }
+  .box5 p{
+      font-size: 12px;
+  }
+  .laptop button{
+      width: 130px;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 40px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 415px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      padding-top: 40px;
+      margin-left: 60px;
+      font-size: 19px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      font-size: 12px;
+  }
+  .line{
+      margin-left: 0;
+      width: 415px;
+  } 
+  .faq{
+      left: 100px;
+      top: -60px;
+      margin-bottom: -200px;
+      height: 400px;
+      width: 360px;
+  }
+  .query p{
+      font-size: 18px;
+  }
+  .whites{
+      font-size: 12px;
+  }
+  .safety{
+      max-width: 470px;
+      margin: 0 auto;
+  }
+  .super{
+      gap: 15px;
+  }
+  .super p{
+      font-size: 10px;
+  }
+  .partly{
+      width: 30px;
+      padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-device-width:490px) {
+  .main{
+      height: 30px;
+      max-width: 380px;
+      margin: 0 auto;
+  }
+  .main img{
+      padding-top: 10px;
+      height: 12px;
+  }
+  .main p{
+      font-size: 10px;
+  }
+  .main1 img{
+      padding-top: 75px;
+      width: 120px;
+  }
+  .discover{
+      padding-top: 32px;
+  }
+  .construction{
+      margin: 0;
+      letter-spacing: -1px;
+      font-size: 18px;
+  }
+  .custom{
+      font-size: 10px;
+  }
+  .discover button{
+      font-size: 9px;
+      width: 100px;
+      height: 25px;
+  }
+  .home{
+      margin-right: 113px;
+      width: 175px;
+      height: 38px;
+  }
+  .home img{
+      padding-left: 6px;
+      width: 20px;
+      height: 20px;
+  }
+  .home p{
+      font-size: 10.5px;
+  }
+  .buying{
+      font-size: 17px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 374px;
+      margin: 0 auto;
+  }
+  .above{
+      padding-top: 20px;
+      gap: 10px;
+  }
+  .house{
+      position: static;
+      padding-left: 5px;
+      width: 360px;
+      height: 360px;
+      margin-bottom: -90px;
+      margin-top: -50px;
+  }
+  .box1{
+      width: 180px;
+      height: 140px;
+  }
+  .uff{
+      max-width: 160px;
+      margin: 0 auto;
+      padding-top: 20px;
+  }
+  .uff img{
+      height: 25px;
+  }
+  .rely{
+      max-width: 374px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 14px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 13px;
+      padding-top: 50px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      margin: 0;
+      padding-top: 5px;
+      font-size: 11px;
+  }
+  .distance p br{
+      display: none;
+  }
+  .distance{   
+      padding-top: 12px;
+  }
+  .box2{
+      width: 180px;
+      height: 140px;
+  }
+
+  .find{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 66px;
+      text-align: center;
+
+  }
+  .build{
+      margin: 0;
+      font-size: 20px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 12px;
+  }
+  .jawad{
+      display: block;
+  }
+  .mahaz{
+      display: block;
+  }
+  .durani{
+      display: block;
+  }
+  .new img {
+      display: none;
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 100px;
+      height: 25px;
+      font-size: 9px;
+      margin-top: 15px;
+      margin-bottom: -200px;
+  }
+  .circle{
+      margin-top: -50px;
+      margin-left: -50px;
+      width: 255px;
+      height: 255px;
+  }
+  .sandy{
+      width: 200px;
+      height: 142px;
+      padding-left: 30px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 200px;
+      height: 122px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 30px;
+  }
+  .ago{
+      display: none;
+      font-size: 10px;
+      width: 93px;
+      height: 23px;
+      left: 65px;
+      top: 15px;
+  }
+  .leigh{
+      max-width: 180px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 13px;
+  }
+  .bth{
+      margin: 0px;
+      font-size: 11px;
+      padding: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 15px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 11px;
+  }
+  .date{
+      font-size: 11px;
+  }
+  .flex1 p{
+      font-size: 11px;
+  }
+  .flex1 img{
+      height: 15px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 200px;
+  }
+  .stars{
+      max-width: 320px;
+      margin: 0 auto;
+  }
+  .stars img{
+      height: 19px;
+      margin-top: 14px;
+  }
+  .stars p br{
+      display: none;
+  }
+  .stars span{
+      font-size: 16px;
+  }
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  .box3{
+      width: 350px;
+      height: 205px;
+  }
+  .bought{
+      margin-top: 0;
+      font-size: 13px;
+  }
+  .box4{
+      width: 350px;
+      height: 205px;
+  }
+  .what{
+      font-size: 17px;
+      padding-top: 39px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 6px;
+  }
+  .box5{
+      flex-direction: column;
+      gap: 1px;
+      width: 114px;
+      height: 50px;
+  }
+  .box5 img{
+      height: 15px;
+  }
+  .box5 p{
+      font-size: 10px;
+  }
+  .laptop button{
+      width: 100px;
+      height: 25px;
+      font-size: 9px;
+      margin-top: 40px;
+  }
+  .have{
+      margin-left: 60px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 345px;
+      margin: 0 auto;
+      margin-left: 60px;
+  }
+  .have{
+      padding-top: 40px;
+      margin-left: 60px;
+      font-size: 16px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      font-size: 10px;
+  }
+  .line{
+      margin-left: 0;
+      width: 345px;
+  } 
+  .faq{
+      left: 70px;
+      top: -60px;
+      margin-bottom: -180px;
+      height: 340px;
+      width: 300px;
+  }
+  .safety{
+      max-width: 370px;
+      margin: 0 auto;
+  }
+  .super{
+      flex-direction: column;
+      gap: 1px;
+      padding-left: 100px;
+  }
+  .super p{
+      font-size: 10px;
+  } 
+  .policy{
+      padding-left: 5px;
+  }
+  .partly{
+      display: none;
+      height: 28px;
+      width: 30px;
+      margin-top: 20px;
+  }
+}
+
+@media screen and (max-device-width:430px) {
+  .above{
+      flex-direction: column;
+      align-items: center;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 374px;
+      margin: 0 auto;
+  }
+  .house{
+      position: static;
+      padding-left: 5px;
+      width: 360px;
+      height: 360px;
+      margin-bottom: -90px;
+      margin-top: -50px;
+  }
+  .box1{
+      width: 350px;
+      height: 220px;
+  }
+  .uff{
+      max-width: 310px;
+      margin: 0 auto;
+      padding-top: 38px;
+  }
+  .uff img{
+      height: 46px;
+  }
+  .rely{
+      max-width: 594px;
+      margin: 0 auto;
+      margin-top: -40px;
+  }    
+  .above1{
+      gap: 14px;
+      padding-top: 70px;
+  } 
+  .distance span{
+      font-size: 18px;
+      padding-top: 70px;
+  }
+  .hmm{
+      display: none;
+  }
+  .distance p{
+      font-size: 14px;
+  }
+  .distance{   
+      padding-top: 27px;
+  }
+  .box2{
+      width: 350px;
+      height: 220px;
+  }
+  .above1{
+      flex-direction: column;
+      align-items: center;
+  }
+  .hockey{
+      max-width: 345px;
+      margin: 0 auto;
+      margin-left: 30px;
+  }
+  .have{
+      padding-top: 40px;
+      margin-left: 30px;
+      font-size: 16px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      font-size: 10px;
+  }
+  .line{
+      margin-left: 0;
+      width: 345px;
+  } 
+  .faq{
+      left: 70px;
+      top: -60px;
+      margin-bottom: -180px;
+      height: 340px;
+      width: 300px;
+  }
+}
+
+@media screen and (max-device-width:400px) {
+  .main{
+      height: 30px;
+      max-width: 330px;
+      margin: 0 auto;
+  }
+  .main img{
+      padding-top: 10px;
+      height: 12px;
+  }
+  .main p{
+      font-size: 10px;
+  }
+  .main1 img{
+      padding-top: 75px;
+      width: 100px;
+  }
+  .discover{
+      margin-left: -20px;
+      padding-top: 32px;
+  }
+  .construction{
+      margin: 0;
+      letter-spacing: -1px;
+      font-size: 15px;
+  }
+  .custom{
+      font-size: 9px;
+  }
+  .discover button{
+      font-size: 9px;
+      width: 100px;
+      height: 25px;
+  }
+  .home{
+      margin-right: 113px;
+      width: 175px;
+      height: 38px;
+  }
+  .home img{
+      padding-left: 6px;
+      width: 20px;
+      height: 20px;
+  }
+  .home p{
+      font-size: 10.5px;
+  }
+  .buying{
+      font-size: 17px;
+  }
+  .for{
+      flex-direction: column;
+      max-width: 374px;
+      margin: 0 auto;
+  }
+  .find{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      max-width: 660px;
+      margin: 0 auto;
+  }
+  .new{
+      padding-top: 66px;
+      text-align: center;
+
+  }
+  .build{
+      margin: 0;
+      font-size: 20px;
+  }
+  .largest{
+      line-height: 130%;
+      font-size: 12px;
+  }
+  .jawad{
+      display: block;
+  }
+  .mahaz{
+      display: block;
+  }
+  .durani{
+      display: block;
+  }
+  .new img {
+      display: none;
+      left: 0px;
+      top: 1450px;
+  }
+  .new button{
+      width: 100px;
+      height: 25px;
+      font-size: 9px;
+      margin-top: 15px;
+      margin-bottom: -200px;
+  }
+  .circle{
+      margin-top: -50px;
+      margin-left: -50px;
+      width: 255px;
+      height: 255px;
+  }
+  .sandy{
+      width: 200px;
+      height: 142px;
+      padding-left: 30px;
+      margin-bottom: -10px;
+  }
+  .west{
+      width: 200px;
+      height: 122px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-bottom: 1px;
+      margin-left: 30px;
+  }
+  .ago{
+      display: none;
+      font-size: 10px;
+      width: 93px;
+      height: 23px;
+      left: 65px;
+      top: 15px;
+  }
+  .leigh{
+      max-width: 180px;
+      margin: 0 auto;
+  }
+  .drive span{
+      font-size: 13px;
+  }
+  .bth{
+      margin: 0px;
+      font-size: 11px;
+      padding: 0;
+      word-spacing: 7px;
+  }
+  .dollar{
+      font-size: 15px;
+  }
+  .flex1{
+      margin-bottom: 8px;
+  }
+  .completeion{
+      font-size: 11px;
+  }
+  .date{
+      font-size: 11px;
+  }
+  .flex1 p{
+      font-size: 11px;
+  }
+  .flex1 img{
+      height: 15px;
+  }
+  .rec{
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 887px;
+      margin: 0 auto;
+      padding-top: 200px;
+  }
+  .stars{
+      max-width: 320px;
+      margin: 0 auto;
+  }
+  .stars img{
+      height: 19px;
+      margin-top: 14px;
+  }
+  .stars p br{
+      display: none;
+  }
+  .stars span{
+      font-size: 16px;
+  }
+  .owner{
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  .box3{
+      width: 350px;
+      height: 205px;
+  }
+  .bought{
+      margin-top: 0;
+      font-size: 13px;
+  }
+  .box4{
+      width: 350px;
+      height: 205px;
+  }
+  .what{
+      font-size: 17px;
+      padding-top: 39px;
+  }
+  .grid{
+      grid-template-columns: auto auto auto;
+      gap: 6px;
+  }
+  .box5{
+      flex-direction: column;
+      gap: 1px;
+      width: 114px;
+      height: 50px;
+  }
+  .box5 img{
+      height: 15px;
+  }
+  .box5 p{
+      font-size: 10px;
+  }
+  .laptop button{
+      width: 100px;
+      height: 25px;
+      font-size: 9px;
+      margin-top: 40px;
+  }
+  .have{
+      margin-left: -30px;
+  }
+  .charger{
+      flex-wrap: wrap;
+      gap: 0px;
+  }
+  .hockey{
+      max-width: 315px;
+      margin: 0 auto;
+      margin-left: 25px;
+  }
+  .have{
+      padding-top: 20px;
+      margin-left: 25px;
+      font-size: 16px;
+  }
+  .hockey p{
+      max-width: 480px;
+      margin: 0 auto;
+      font-size: 10px;
+  }
+  .line{
+      margin-left: 0;
+      width: 315px;
+  } 
+  .faq{
+      left: 50px;
+      top: -60px;
+      margin-bottom: -180px;
+      height: 340px;
+      width: 300px;
+  }
+  .safety{
+      max-width: 370px;
+      margin: 0 auto;
+  }
+  .super{
+      flex-direction: column;
+      gap: 1px;
+      padding-left: 100px;
+  }
+  .super p{
+      font-size: 10px;
+  } 
+  .policy{
+      padding-left: 5px;
+  }
+  .partly{
+      display: none;
+      height: 28px;
+      width: 30px;
+      margin-top: 20px;
+  }
+}
